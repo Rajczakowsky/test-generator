@@ -7,7 +7,7 @@ import ReactGA from 'react-ga';
 import { initRaven } from '@twigeducation/raven-logger';
 import { theme, GlobalStyle } from '@twigeducation/ts-fe-components';
 
-import Routes from './routes';
+import Routes from './rorutes';
 import store from './store/store';
 import client from './apolloClient';
 import CustomLaunchDarkly from './components/LaunchDarkly';
