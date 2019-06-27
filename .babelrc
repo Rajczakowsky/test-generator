@@ -1,0 +1,49 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "ie >= 11",
+            "ios >= 9"
+          ]
+        }
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "syntax-dynamic-import"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "babel-plugin-styled-components",
+        "transform-react-remove-prop-types",
+      ]
+    },
+    "test": {
+      "plugins": [
+        [
+          "styled-components",
+          {
+            "displayName": true
+          }
+        ]
+      ]
+    },
+    "development": {
+      "plugins": [
+        [
+          "styled-components",
+          {
+            "displayName": true
+          }
+        ]
+      ]
+    }
+  }
+}

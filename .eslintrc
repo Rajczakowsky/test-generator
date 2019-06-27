@@ -1,0 +1,33 @@
+{
+    "extends": [
+      "twig"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+      "jsx-a11y/label-has-associated-control": [
+        2,
+        {
+          "controlComponents": [
+            "FormInput",
+            "FormPasswordInput",
+            "FormSelect",
+            "FormTextArea"
+          ],
+          "depth": 3
+        }
+      ]
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "jest": true
+    },
+    "plugins": [
+      "compat"
+    ],
+    "globals": {
+    },
+    "settings": {
+      "polyfills": ["promises"]
+    }
+  }

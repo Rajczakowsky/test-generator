@@ -1,0 +1,39 @@
+{
+  "setupFiles": [
+    "<rootDir>/enzyme.js",
+    "<rootDir>/GoogleAnalyticsMock.js",
+    "<rootDir>/localStorageMock.js",
+    "<rootDir>/throwOnConsoleError.js",
+    "jest-canvas-mock"
+  ],
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/fileMock.js",
+    "imports-loader?.*": "<rootDir>/jest/es5modules.js",
+    "worker-loader?.*": "<rootDir>/es5modules.js"
+  },
+  "roots": [
+    "<rootDir>../src/js"
+  ],
+  "globals": {
+    "config": {
+      "AUTHENTICATION_URL": "http://localhost:5001",
+      "AUTH_CLIENT_ID": "TSC",
+      "CLOUDINARY_URL": "https://res.cloudinary.com",
+      "PUBLIC_GRAPHQL_URL": "http://localhost:9001/graphql",
+      "ENABLE_REDUX_DEV_TOOLS": false,
+      "LOGIN_URL": "/login"
+    },
+    "NODE_ENV": "",
+    "RELEASE_NAME": ""
+  },
+  "testURL": "https://www.twigscience.com/ola",
+  "reporters": [
+    "default",
+    [
+      "jest-junit",
+      {
+        "output": "reports/junit.xml"
+      }
+    ]
+  ]
+}

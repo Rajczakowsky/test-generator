@@ -1,0 +1,58 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('../font/bariol_regular-webfont.woff') format('woff');
+    src: url('../font/bariol_regular-webfont.eot')
+        url('../font/bariol_regular-webfont.eot?#iefix') format('embedded-opentype')
+        url('../font/bariol_regular-webfont.woff2') format('woff2')
+        url('../font/bariol_regular-webfont.ttf') format('truetype')
+        url('../font/bariol_regular-webfont.svg#bariolregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bariol-Bold';
+    src: url('../font/bariol_bold-webfont.woff') format('woff');
+    src: url('../font/bariol_bold-webfont.eot')
+        url('../font/bariol_bold-webfont.eot?#iefix') format('embedded-opentype')
+        url('../font/bariol_bold-webfont.woff2') format('woff2')
+        url('../font/bariol_bold-webfont.ttf') format('truetype')
+        url('../font/bariol_bold-webfont.svg#bariolbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bariol-Light';
+    src: url('../font/bariol_light-webfont.woff') format('woff');
+    src: url('../font/bariol_light-webfont.eot')
+        url('../font/bariol_light-webfont.eot?#iefix') format('embedded-opentype')
+        url('../font/bariol_light-webfont.woff2') format('woff2')
+        url('../font/bariol_light-webfont.ttf') format('truetype')
+        url('../font/bariol_light-webfont.svg#bariollight') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../font/muli-webfont.woff') format('woff')
+        url('../font/muli-webfont.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muli-light';
+    src: url('../font/muli-light-webfont.woff') format('woff')
+        url('../font/muli-light-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../font/muli-bold-webfont.woff') format('woff')
+        url('../font/muli-bold-webfont.woff2') format('woff2');
+    font-weight: 700;
+}

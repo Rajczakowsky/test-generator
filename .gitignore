@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+.env
+npm-debug.log
+yarn-error.log
+webpack-stats.json
+fragmentTypes.json
+schema.json
+.vscode/
+*.tgz
+*.swp
+jest/coverage/
+reports/

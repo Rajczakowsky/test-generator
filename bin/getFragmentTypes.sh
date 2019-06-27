@@ -1,0 +1,1 @@
+curl https://s3.amazonaws.com/graphql-artefacts/fragmentTypes.json -o fragmentTypes.json
